@@ -17,7 +17,7 @@ y = max_range / num_ring * (1 : num_ring);
 [X, Y] = meshgrid(x, y);
 %% Scan Context Visualization
 figure
-set(gcf,'Unit', 'Centimeters', 'Position', [10 5 15 6])
+set(gcf,'Unit', 'Centimeters', 'Position', [10 5 20 8])
 surf(X, Y, img, 'EdgeColor', 'none')
 set(gca,'FontName','Times New Roman')
 view(2)
